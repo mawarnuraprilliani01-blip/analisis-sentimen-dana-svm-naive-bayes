@@ -1,4 +1,4 @@
-Analisis Sentimen Review Aplikasi DANA Menggunakan SVM dan Naive Bayes
+# Analisis Sentimen Review Aplikasi DANA Menggunakan SVM dan Naive Bayes
 
 1. Deskripsi Proyek
 
@@ -78,18 +78,20 @@ Berdasarkan hasil evaluasi, model SVM memiliki performa lebih baik dibandingkan 
 
 7. Deployment
 
-Deployment dilakukan menggunakan Streamlit. Aplikasi memungkinkan pengguna memasukkan review aplikasi DANA, lalu sistem akan memprediksi sentimennya.
-File deployment terdiri dari:
-Analisis_Sentimen_DANA_Final_Checked.ipynb
-README.md
-app_fixed.py
-best_model.pkl
-hasil_evaluasi.pkl
-requirements.txt
-stopwords_indonesia.pkl
+Deployment dilakukan menggunakan Streamlit. Aplikasi memungkinkan pengguna memasukkan review aplikasi DANA, lalu sistem akan memprediksi sentimen dari review tersebut.
+
+File deployment yang digunakan dalam proyek ini terdiri dari:
+
+- app_fixed.py
+- requirements.txt
+- best_model.pkl
+- stopwords_indonesia.pkl
+- hasil_evaluasi.pkl
+
+Aplikasi telah berhasil di-deploy menggunakan Streamlit Community Cloud.
 
 8. Struktur Folder
-   
+
 text
 analisis-sentimen-dana-svm-naive-bayes/
 ├── app_fixed.py
@@ -100,21 +102,26 @@ analisis-sentimen-dana-svm-naive-bayes/
 ├── stopwords_indonesia.pkl
 └── hasil_evaluasi.pkl
 
+
 9. Cara Menjalankan Aplikasi Secara Lokal
+
 Install library yang dibutuhkan:
 bash
 pip install -r requirements.txt
 
 Jalankan aplikasi Streamlit:
 bash
-streamlit run app.py
+streamlit run app_fixed.py
+
 
 10. Link Deployment
 
-Tambahkan link aplikasi setelah berhasil deploy:
+Aplikasi dapat diakses melalui link berikut:
 
 text
-Link Streamlit: https://review-dana-sentiment.streamlit.app/
+https://review-dana-sentiment.streamlit.app/
+
+
 
  11. Kesimpulan
 
