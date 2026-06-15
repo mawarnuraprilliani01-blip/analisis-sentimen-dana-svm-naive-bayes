@@ -2,7 +2,7 @@ Analisis Sentimen Review Aplikasi DANA Menggunakan SVM dan Naive Bayes
 
 1. Deskripsi Proyek
 
-Proyek ini bertujuan untuk melakukan analisis sentimen terhadap review pengguna aplikasi DANA. Review pengguna diklasifikasikan ke dalam kategori sentimen berdasarkan isi teks review. Model machine learning yang digunakan adalah Support Vector Machine (SVM)** dan Naive Bayes.
+Proyek ini bertujuan untuk melakukan analisis sentimen terhadap review pengguna aplikasi DANA. Review pengguna diklasifikasikan ke dalam kategori sentimen berdasarkan isi teks review. Model machine learning yang digunakan adalah Support Vector Machine (SVM) dan Naive Bayes.
 
 Proyek ini dibuat sebagai tugas Machine Learning dengan mengikuti tahapan CRISP-DM, yaitu Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, dan Deployment.
 
